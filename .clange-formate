@@ -1,0 +1,23 @@
+---
+BasedOnStyle: Google
+Language: Cpp
+AccessModifierOffset: -4
+AllowShortFunctionsOnASingleLine: Inline
+AllowShortIfStatementsOnASingleLine: false
+AlwaysBreakBeforeMultilineStrings: false
+ColumnLimit: 100
+DerivePointerAlignment: false
+IncludeBlocks: Preserve
+IncludeCategories:
+  - Regex: '^<.*'
+    Priority: 1
+  - Regex: '.*'
+    Priority: 2
+IndentWidth: 4
+KeepEmptyLinesAtTheStartOfBlocks: true
+ReflowComments: false
+SortIncludes: true
+Standard: Cpp11
+TabWidth: 4
+UseTab: Never
+...
