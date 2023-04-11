@@ -15,7 +15,7 @@ set(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib)
 
 
 # 添加编译目标
-add_executable(ch1 src/exercise_c1.cpp)
+add_executable(ch02 src/exercise_02.cpp)
 
 # 添加库文件
 # add_library(utils utils.cpp)
